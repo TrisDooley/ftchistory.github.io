@@ -9,14 +9,14 @@ body:not(.render_raw) {
     text-decoration: none;
     background-color: transparent; }
   body:not(.render_raw) header {
-    background-color: #42050a;
+    background-color: black;
     border-bottom: 2px solid gray;
     box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.1), 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
     justify-content: space-between;
     align-items: stretch;
-    color: #f9b3b9; }
+    color: #8a90ad; }
     body:not(.render_raw) header a {
-      color: #bdfaf5; }
+      color: white; }
     body:not(.render_raw) header > div {
       display: flex;
       flex-direction: row;
@@ -42,12 +42,12 @@ body:not(.render_raw) {
         body:not(.render_raw) header nav.shortcuts li .fa {
           margin-right: 0.5rem; }
         body:not(.render_raw) header nav.shortcuts li a {
-          color: #d0fbf8;
+          color: white;
           padding: 0 1rem;
           font-weight: bold;
           font-size: 90%; }
   body:not(.render_raw) article {
-    background-color: white; }
+    background-color: #f3f4f7; }
     body:not(.render_raw) article aside #close_menu {
       display: none;
       float: right;
@@ -66,8 +66,8 @@ body:not(.render_raw) {
         letter-spacing: -1px;
         display: block;
         margin-bottom: 14px;
-        border-bottom: 1px dotted #ef2536;
-        color: #42050a;
+        border-bottom: 1px dotted #41465d;
+        color: black;
         font-variant: small-caps; }
       body:not(.render_raw) article section.right-menu .TableOfContents nav > ul {
         padding: 0px 0px 0px 0px;
@@ -75,7 +75,7 @@ body:not(.render_raw) {
         body:not(.render_raw) article section.right-menu .TableOfContents nav > ul ul {
           padding: 0px 0px 0px 14px;
           margin: 0px 0px 0px 0px;
-          border-left: 1px solid #f9b3b9; }
+          border-left: 1px solid #8a90ad; }
           body:not(.render_raw) article section.right-menu .TableOfContents nav > ul ul li {
             font-size: 90%; }
       body:not(.render_raw) article section.right-menu .TableOfContents ul {
@@ -88,11 +88,11 @@ body:not(.render_raw) {
           body:not(.render_raw) article section.right-menu .TableOfContents li a.active {
             font-weight: 500; }
   body:not(.render_raw) footer {
-    background-color: #42050a;
-    color: #bdfaf5;
+    background-color: black;
+    color: white;
     padding: 3rem; }
     body:not(.render_raw) footer a {
-      color: #bdfaf5; }
+      color: white; }
 
 article section.page {
   background-color: inherit; }
@@ -117,7 +117,7 @@ article section.page {
           content: "⊸"; }
         article section.page #breadcrumb ol li a {
           color: black;
-          border-bottom: 1px dotted #b90e1c;
+          border-bottom: 1px dotted #212430;
           padding-bottom: 4px;
           padding-right: 0px; }
         article section.page #breadcrumb ol li.active:after {
@@ -147,29 +147,29 @@ article section.page {
       min-width: 50px; }
       article section.page nav.subpages li a {
         font-size: 90%;
-        color: #c70011; }
+        color: #0d1745; }
       article section.page nav.subpages li:not(:first-child):before {
         display: inline-block;
         margin-left: 0.4em;
         padding-right: .4rem;
-        color: #c70011;
+        color: #151c3c;
         content: "|"; }
       article section.page nav.subpages li.active {
         font-weight: bold; }
     article section.page nav.subpages li:first-child:before {
       content: "└ ";
-      color: #c70011; }
+      color: #151c3c; }
   article section.page div.jump-to-section {
     font-size: smaller;
-    color: #42050a; }
+    color: black; }
     article section.page div.jump-to-section ul li a {
-      color: #c70011; }
+      color: #111a40; }
     article section.page div.jump-to-section nav {
       background-color: white; }
   article section.page div.chevrons {
     margin-top: 3rem;
-    border-top: 1px solid #f9b3b9;
-    border-bottom: 1px solid #f9b3b9;
+    border-top: 1px solid #8a90ad;
+    border-bottom: 1px solid #8a90ad;
     padding: 1rem 0rem;
     display: flex;
     flex-direction: row;
@@ -204,7 +204,7 @@ article section.page {
   article section.page h1:first-of-type {
     font-size: 2.6rem;
     margin-top: 1.5rem !important;
-    color: #42050a;
+    color: black;
     margin-bottom: 0px;
     line-height: 1.05;
     letter-spacing: -.05em;
@@ -215,7 +215,7 @@ article section.page {
       article section.page h1:first-of-type span:before {
         padding-left: .75rem;
         padding-right: .75rem;
-        color: #42050a;
+        color: black;
         content: "⊷"; }
 
 article section.page div.content {
@@ -226,11 +226,11 @@ article section.page div.content {
     top: -7rem;
     visibility: hidden; }
   article section.page div.content a {
-    color: #c70011;
+    color: #000f52;
     font-weight: 500;
     text-decoration: underline; }
   article section.page div.content h1 {
-    color: #720911;
+    color: #020203;
     font-size: 30px;
     font-variant-ligatures: none;
     font-weight: 700;
